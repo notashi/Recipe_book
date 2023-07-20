@@ -1,70 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RECIPE_WEB_APP
 
-## Available Scripts
+The recipe book app allows users to view recipe details, save favorite recipes, and search for specific recipes. It includes a user login and register page for personalized experiences. Built with React.js, Redux Toolkit for state management, and styled using Semantic UI for a modern UI design.
 
-In the project directory, you can run:
 
-### `npm start`
+## Languages
+HTML, CSS, Javascript,React.js, Redux, Semantic UI, and React Router
+## *Table of Contents*
+1) Register Page
+2) Login Page
+3) Home Page
+4) Recipe Page / Details    
+5) Saved Recipe
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Register page:
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1130801158202593290/Register_page.PNG?width=1397&height=676)
 
-### `npm test`
+The app offers a user login page where existing users can sign in.
+New users can register by providing their email address and creating a password.
+## Login Page:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1130801156822675546/login_page.PNG?width=1405&height=676)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Home Page:
+The app features a search bar where users can input keywords or ingredients to search for specific recipes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1130801156130603068/homepage.PNG?width=1389&height=676)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Recipe Page/Details:
+The app provides a list of recipes on the home page.
+When a user clicks on a recipe, they are directed to a page displaying the detailed information of that recipe, such as ingredients, instructions and calories
 
-### `npm run eject`
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1130801157762199552/recipe_page.PNG?width=1317&height=676)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1130801157334368367/recipe_details.PNG?width=1440&height=624)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Saved Page:
+There is a button on the recipe details page that allows users to add the recipe to their favorites list.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1130801159133736980/saved_recipes.PNG?width=914&height=676)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
+To clone in your system
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+git clone https://github.com/notashi/Recipe_book.git
 
-### Code Splitting
+Install Dependencies
+ 
+ npm install 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ To start the server 
 
-### Analyzing the Bundle Size
+ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
